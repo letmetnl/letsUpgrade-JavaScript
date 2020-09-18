@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      .but {
+        margin: 5px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <img
+      class="oil"
+      src="C:\Users\TVS ROHITH\Documents\12.jpg"
+      height="500px"
+    /><br />
+    <button class="but" onclick="pr1() ">CLICK HERE</button>
+    <button class="but" onclick="pr2() ">CLICK HERE</button>
+    <button class="but" onclick="pr3() ">CLICK HERE</button>
+
+    <script type="text/javascript">
+      function pr1() {
+        let eles = document.getElementsByClassName("oil");
+
+        eles.src = "C:\Users\TVS ROHITH\Documents\12.jpg";
+      }
+
+      function pr2() {
+        let ele = document.getElementsByClassName("oil");
+
+        ele.src =
+          "C:\Users\TVS ROHITH\Documents\TEST WiTH HTML AND CSS_files\rbcube.jpg";
+      }
+
+      function pr3() {
+        let ele1 = document.getElementsByClassName("oil");
+        ele1.src =
+          "C:\Users\TVS ROHITH\Documents\TEST WiTH HTML AND CSS_files\spd.png";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+  <head> </head>
+
+  <body>
+    <input class="hee" type="text" placeholder="type smtng" />
+
+    <button onclick="hello()">click here</button>
+
+    <input type="text" class="he" placeholder="type smtng" />
+
+    <script>
+      function hello() {
+        const ele = document.getElementsByClassName("hee");
+        let ele1 = document.getElementsByClassName("he");
+        ele1[0].value = ele[0].value;
+        console.log(ele[0].value);
+      }
+    </script>
+  </body>
+</html>
